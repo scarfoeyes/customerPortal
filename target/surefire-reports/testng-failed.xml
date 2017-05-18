@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sample.tests.create_customer">
+        <methods>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="removeCustomerTest"/>
+          <include name="addNewCustomerTest"/>
+          <include name="updateCustomerTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sample.tests.create_customer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

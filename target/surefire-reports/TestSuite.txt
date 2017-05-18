@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 11.287 s <<< FAILURE! - in TestSuite
+loginTest(com.sample.tests.create_customer)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sample.tests.create_customer.loginTest(create_customer.java:55)
+

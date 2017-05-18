@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sample.tests.create_customer">
+        <methods>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="removeCustomerTest"/>
+          <include name="addNewCustomerTest"/>
+          <include name="updateCustomerTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sample.tests.create_customer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
